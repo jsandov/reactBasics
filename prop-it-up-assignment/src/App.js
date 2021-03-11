@@ -5,15 +5,15 @@ import Person from "./components/person-component";
 function App() {
   return (
     <div className="App">
-      <Person lastName="Doe" firstName="Jane" age="48" hairColor="Black" />
-      <Person lastName="Smith" firstName="John" age="88" hairColor="Brown" />
+      <Person lastName="Doe" firstName="Jane" age={48} hairColor="Black" />
+      <Person lastName="Smith" firstName="John" age={88} hairColor="Brown" />
       <Person
         lastName="Fillmore"
         firstName="Millard"
-        age="50"
+        age={50}
         hairColor="Brown"
       />
-      <Person lastName="Smith" firstName="Maria" age="62" hairColor="Brown" />
+      <Person lastName="Smith" firstName="Maria" age={23} hairColor="Brown" />
     </div>
   );
 }
